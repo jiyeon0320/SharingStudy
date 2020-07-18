@@ -34,3 +34,7 @@
     - static getDrivedStateFromProps(props, state) 함수
         - 정적 함수 >> this.props나 this.state 방법으로 프로퍼티나 스테이트 값에 접근할 수 없음
         - 상위 컴포넌트에서 전달받은 프로퍼티로 state 값을 연동할 때 주로 사용. 반환값으로 state를 변경
+
+    - componentDidMount() 함수
+        - render() 함수가 JSX를 화면에 그린 이후에 호출됨
+        - 컴포넌트가 화면에 모두 출력된 이후에 해야 하는 작업들은 여기에서 하면됨
