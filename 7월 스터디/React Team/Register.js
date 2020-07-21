@@ -47,15 +47,6 @@ const Register = () => {
         }
     }, [auth, history]);
 
-    // const onSubmit = () => {
-    //     if (email === '' && password === '') {
-    //         alert('빈 칸을 입력해주세요');
-    //     } else if (password !== passwordConfirm) {
-    //         alert('비밀번호가 일치하지 않습니다.');
-    //     }
-    //     // console.log();
-    //     dispatch(requestRegister({ email, password }));
-    // };
     const onClick = () => {
         if (email === '' && password === '') {
             alert('빈 칸을 입력하세요.');
